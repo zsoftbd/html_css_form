@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html_css/form</title>
+</head>
+
+<body>
+    <h1>Person Details</h1>
+    <form action="" style="width: 300px;">
+        <p>Name:<input type="text" name="name" placeholder="Enter your Name" id=""></p>
+        <p>Email:<input type="text" name="Email" placeholder="Enter your email" id=""></p>
+        <p>Phone:<input type="number" name="phone" placeholder="Enter your number" id=""></p>
+        <fieldset>
+            <legend>Select your favourite sports</legend>
+
+            <p>
+                <label for="cricket">
+                    <input type="radio" name="sports" id="cricket">cricket
+                </label>
+            </p>
+            <p>
+                <label for="volleyball">
+                    <input type="radio" name="sports" id="volleyball">volleyball
+                </label>
+            </p>
+            <p>
+                <label for="football">
+                    <input type="radio" name="sports" id="football">football
+                </label>
+            </p>
+            <p>
+                <label for="Kabaddi">
+                    <input type="radio" name="sports" id="Kabaddi">Kabaddi
+                </label>
+            </p>
+            <p>
+                <label for="badminton">
+                    <input type="radio" name="sports" id="badminton">badminton
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Select your more favourite sports</legend>
+            <p><label for="Golf"><input type="checkbox" name="sports" id="Golf">Golf</label></p>
+            <p><label for="Baseball"><input type="checkbox" name="sports" id="Baseball">Baseball</label></p>
+            <p><label for="Hockey"><input type="checkbox" name="sports" id="Hockey">Hockey</label></p>
+        </fieldset><br>
+        <p>Give us your feedback(optional)
+            <textarea name="comment" id="" cols="50" rows="6" form="userForm" placeholder="Enter your comment....."></textarea>
+        </p>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>
